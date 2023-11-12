@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        
+        <!-- HEADER -->
+        <div class="header">
+            <div class="grid">
+                <div class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--borderR navbar__item--QR">
+                            <span>Tải ứng dụng</span>
+                            <div class="navbar__qr">
+                                <img src="./assets/img/QRcode.png" alt="QR Code" class="navbar__qr-img">
+                                <div class="navbar__qr-link">
+                                    <a href="#" class="">
+                                        <img src="./assets/img/CH_Play.png" alt="CH Play" class="navbar__qr-link-CHPlay">
+                                    </a>
+                                    <a href="#" class="">
+                                        <img src="./assets/img/App_store.png" alt="Appstore" class="navbar__qr-link-Appstore">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item navbar__item--no-hover">Kết nối</li>
+                        <a href="" class="navbar__item-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="navbar__item-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </ul>
+    
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--notif">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar__item-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="navbar__notif">
+                                <h3 class="navbar__notif-header">Bạn có thông báo mới</h3>
+                                <ul class="navbar__notif-list">
+                                    <li class="navbar__notif-item">
+                                        <a href="#" class="navbar__notif-item-link">
+                                            <img class="navbar__notif-item-img" src="https://skhcn.dongthap.gov.vn/image/journal/article?img_id=7576199&t=1641696713813" alt="Thông báo">
+                                            <div href="#" class="navbar__notif-item-text">
+                                                <p class="navbar__notif-title">Thanh toán đơn hàng </p>
+                                                <p class="navbar__notif-desc">Thanh toán đơn hàng thành công</p>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notif-item">
+                                        <a href="#" class="navbar__notif-item-link">
+                                            <img class="navbar__notif-item-img" src="https://skhcn.dongthap.gov.vn/image/journal/article?img_id=7576199&t=1641696713813" alt="Thông báo">
+                                            <div href="#" class="navbar__notif-item-text">
+                                                <p class="navbar__notif-title">Thanh toán đơn hàng </p>
+                                                <p class="navbar__notif-desc">Thanh toán đơn hàng thành công</p>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                    <li class="navbar__notif-item">
+                                        <a href="#" class="navbar__notif-item-link">
+                                            <img class="navbar__notif-item-img" src="https://skhcn.dongthap.gov.vn/image/journal/article?img_id=7576199&t=1641696713813" alt="Thông báo">
+                                            <div href="#" class="navbar__notif-item-text">
+                                                <p class="navbar__notif-title">Thanh toán đơn hàng Thanh toán đơn hàng Thanh toán đơn hàng</p>
+                                                <p class="navbar__notif-desc">Thanh toán đơn hàng thành công</p>
+                                            </div>
+
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="navbar__notif-footer">
+                                    <a href="#">Xem tất cả<a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar__item-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar__item--bold navbar__item--borderR"><span>Đăng ký</span></li>
+                        <li class="navbar__item navbar__item--bold"> <span> Đăng nhập</span></li>
+                    </ul>
+                </div>
+
+                <div class="logo-search">
+                    <a href="" class="header__logo">
+                        <i class="header__logo-icon fa-brands fa-shopify"></i>
+                        <span class="header__logo-name">Shopee</span>
+                    </a>
+                    <div class="header__search">
+                        <div class="header__search-wrap">
+                            <input type="text" class="header__search-input" placeholder="Sản phẩm bạn muốn tìm?">
+                            <ul class="header__search-history">
+                                <h3>Lịch sử tìm kiếm</h3>
+                                <a href="#" class="header__search-history-item">
+                                    Vòng quay Freeship
+                                </a>
+                                <a  href="#" class="header__search-history-item">
+                                Siêu sale 15.3 
+                                </a>
+                            </ul>
+                        </div>
+                        <!-- <div class="header__search-select">
+                            <span>Trong nước</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div> -->
+                        <button class="header__search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-quantity">3</span>
+                            <!-- Has no cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img class="header__cart-list--no-cart-img" src="./assets/img/No_cart.png" alt="Chưa có sản phẩm">
+                                <span class="header__cart-list--no-cart-text">Chưa có sản phẩm</span>
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <div class="header__cart-list-item">
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_K3.jpg" alt="Kindle Keyboard 3" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Keyboard 3</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">1.000.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used very good, Trắng</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Basic4.jfif" alt="Kindle Basic 4" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Basic 4</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used, Graphit, ngoại hình xước xát</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Voyage.jpg" alt="Kindle Voyage" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Máy đọc sách Amazon Kindle Voyage</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: New seal</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>  <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_K3.jpg" alt="Kindle Keyboard 3" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Keyboard 3</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">1.000.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used very good, Trắng</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Basic4.jfif" alt="Kindle Basic 4" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Basic 4</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used, Graphit, ngoại hình xước xát</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Voyage.jpg" alt="Kindle Voyage" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Máy đọc sách Amazon Kindle Voyage</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: New seal</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>  <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_K3.jpg" alt="Kindle Keyboard 3" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Keyboard 3</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">1.000.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used very good, Trắng</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Basic4.jfif" alt="Kindle Basic 4" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Kindle Basic 4</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: Used, Graphit, ngoại hình xước xát</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="header__cart-item">
+                                        <img src="./assets/img/Kindle_Voyage.jpg" alt="Kindle Voyage" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Máy đọc sách Amazon Kindle Voyage</h5>
+                                                <div class="header__cart-price-wrap">
+                                                    <span class="header__cart-item-price">2.500.000đ</span>
+                                                    <span class="header__cart-item-multi">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Phân loại: New seal</span>
+                                                <span class="header__cart-item-dele">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary header__cart-list-view">
+                                    Xem giỏ hàng
+                                </button>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- END HEADER -->
+
+        <!-- BEGIN CONTAINER -->
+        <div class="main__container">
+            <div class="grid">
+                <div class="grid__row main-content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category-heading">
+                                <i class="category-heading-icon fa-solid fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item__active">
+                                    <a href="#" class="category-item__link">
+                                        Kindle Basic
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        Kindle Paperwhite
+                                    </a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">
+                                        Kindle Oasis
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class=" btn home-filter__btn">Phổ biến</button>
+                            <button class=" btn  btn-primary home-filter__btn">Mới nhất</button>
+                            <button class=" btn home-filter__btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                   <li class="select-input__link">
+                                       <a href="#">Từ cao đến thấp</a>
+                                   </li> 
+                                   <li class="select-input__link">
+                                        <a href="#">Từ thấp đến cao</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                     <span class="home-filter__page-curent">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-control-btn home-filter__page-control-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-control-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <!-- product-item -->
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="product-item" href="#">
+                                        <div class="product-item__img" style="background-image: url(https://vn-live-01.slatic.net/p/90af8867979172ab984b37ea5f7e086f.jpg);"></div>
+                                        <h4 class="product-item__name">Máy đọc sách Amazon Kindle Basic 10th 2020</h4>
+                                        <div class="product-item__price">
+                                            <span class="product-item__price-old">2.000.000đ</span>
+                                            <span class="product-item__price-new">1.700.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            <span class="product-item__like product-item__like--liked">
+                                                <i class="product-item__like--unliked-icon fa-regular fa-heart"></i>
+                                                <i class="product-item__like--liked-icon fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="product-item__rate ">
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star product-item__rate-star--gold"></i>
+                                                 <i class="fa-solid fa-star "></i>
+                                                <!-- <i class="fa-solid fa-star"></i> -->
+                                            </div>
+                                            <span class="product-item__sold">Đã bán 124</span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="product-item__brand">Amazon</span>
+                                            <span class="product-item__origin-nation">US</span>
+                                        </div>
+                                        <div class="product-item__fovourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="product-item__sale-off">
+                                            <span class="product-item__sale-off-percent">15%</span>
+                                            <span class="product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li> 
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <!-- END CONTAINER -->
+
+        <!-- BEGIN FOOTER -->
+        <div class="footer">
+            
+        </div>
+        <!-- END FOOTER -->
+    </div>
+    
+    <!-- MODAL ĐĂNG KÝ -->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <div class="modal__inner"> -->
+
+                <!-- Register form -->
+                <!-- <div class="auth-form">
+
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input placeholder="Nhập email/số điện thoại của bạn" type="password" class="auth-form__input">
+                            </div>
+                            <div class="auth-form__group">
+                                <input placeholder="Nhập mật khẩu của bạn" type="password" class="auth-form__input">
+                            </div>
+                            <div class="auth-form__group">
+                                <input placeholder="Nhập lại mật khẩu " type="password" class="auth-form__input">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Shoppe về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__control--back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG KÝ</button>
+    
+                        </div>
+                    </div>
+                   
+
+                    <div class="auth-form__social">
+                        <a href="" class="btn btn--width-icon auth-form__social--FB">
+                            <i class="fa-brands fa-facebook-square"></i>
+                            <span >Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="btn btn--width-icon auth-form__social--GG">
+                            <i class="fa-brands fa-google"></i>
+                            <span>Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+               
+                <!-- Login form -->
+                <!-- <div class="auth-form">
+
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input placeholder="Nhập email/số điện thoại của bạn" type="password" class="auth-form__input">
+                            </div>
+                            <div class="auth-form__group">
+                                <input placeholder="Nhập mật khẩu của bạn" type="password" class="auth-form__input">
+                            </div>
+                           
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                               <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                               <span class="auth-form__help-separate"></span>
+                               <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__control">
+                            <button class="btn auth-form__control--back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+    
+                        </div>
+                    </div>
+                   
+
+                    <div class="auth-form__social">
+                        <a href="" class="btn btn--width-icon auth-form__social--FB">
+                            <i class="fa-brands fa-facebook-square"></i>
+                            <span >Đăng nhập với Facebook</span>
+                        </a>
+                        <a href="" class="btn btn--width-icon auth-form__social--GG">
+                            <i class="fa-brands fa-google"></i>
+                            <span>Đăng nhập với Google</span>
+                        </a>
+                    </div>
+                </div> -->
+            <!-- </div>
+        </div>
+    </div> -->
+</body>
+</html>
